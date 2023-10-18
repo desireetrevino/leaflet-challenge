@@ -58,7 +58,7 @@ function map_creation(eq_data) {
             color: c_color,
             fillColor: c_color,
             radius: eq_radius 
-        }).bindPopup(`<h3>${eq_data[i].properties.place}</h3> <hr> <h3>Magnitude: ${eq_data[i].properties.mag}</h3>`).addTo(myMap);
+        }).bindPopup(`<h4>${eq_data[i].properties.place}</h4> <hr> <i>Magnitude: ${eq_data[i].properties.mag}</i> <i>Depth: ${depth}</i>`).addTo(myMap);
     }
 // Map Legend:
 
